@@ -1,6 +1,11 @@
 # UnicodeSanitizer
 
 UnicodeSanitizer는 파일명에 포함된 다양한 형태의 인코딩 문제를 해결하기 위한 Python 스크립트입니다. 한글 파일명 변환, URL 디코딩, 자모 분리 해제 기능 등을 제공합니다. 또한, 유니코드 정규화를 통해 파일명이나 폴더명이 find 명령어 또는 fzf(fuzzy finder)에서 정상적으로 검색되지 않는 문제를 효과적으로 해결합니다.
+
+### 배경
+
+macOS와 Windows의 한글 처리 방식으로 생기는 문제를 간편하게 해결하기 위해 만들었습니다.
+
 ## 기능
 
 - 한글 파일명을 NFC(Normalization Form C) 형식으로 변환
