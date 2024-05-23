@@ -23,9 +23,9 @@ macOS와 Windows에서 한글 처리 방식 차이로 인해 발생하는 문제
 
 2. (선택 사항) 가상 환경을 생성하고 활성화합니다:
     ```sh
-    python3 -m venv venv
-    source venv/bin/activate  # Linux 또는 macOS
-    .\venv\Scripts\activate   # Windows
+    python3 -m venv myenv
+    source myenv/bin/activate  # Linux 또는 macOS
+    .\myenv\Scripts\activate   # Windows
     ```
 
 ## 사용 방법
