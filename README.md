@@ -4,7 +4,7 @@ UnicodeSanitizer는 파일명에 포함된 다양한 형태의 인코딩 문제�
 
 ### 배경
 
-macOS와 Windows에서 한글 처리 방식 차이로 인해 발생하는 문제를 쉽게 해결하기 위해 이 스크립트를 만들었습니다.
+macOS와 Windows에서 한글 처리 방식 차이로 인해 발생하는 문제를 간단히 해결하기 위해 이 스크립트를 만들었습니다.
 
 ## 기능
 
@@ -15,7 +15,7 @@ macOS와 Windows에서 한글 처리 방식 차이로 인해 발생하는 문제
 
 ## 설치 방법
 
-1. 이 레포지토리를 클론합니다:
+1. 이 리포지토리를 클론합니다:
     ```sh
     git clone https://github.com/yourusername/UnicodeSanitizer.git
     cd UnicodeSanitizer
@@ -64,11 +64,26 @@ python3 sanitizer.py -u ~/Documents --debug
 python3 sanitizer.py -f ~/Documents --debug
 ```
 
+## 업데이트
+
+UnicodeSanitizer 리포지토리 업데이트를 확인하는 것이 좋습니다!
+
+```sh
+cd UnicodeSanitizer
+git status
+```
+
+변경 사항 가져오기:
+
+```sh
+git pull origin main
+```
+
 ## 기여 방법
 
 기여해주셔서 감사합니다! 이 프로젝트에 기여하시려면 아래 단계를 따라 주세요:
 
-1. 이 레포지토리를 포크하세요
+1. 이 리포지토리를 포크하세요
 2. 기능 브랜치(micronzone 브랜치)를 생성하세요 (`git checkout -b micronzone/UnicodeSanitizer`)
 3. 변경 사항을 커밋하세요 (`git commit -m 'Add some UnicodeSanitizer'`)
 4. 브랜치에 푸시하세요 (`git push origin micronzone/UnicodeSanitizer`)
